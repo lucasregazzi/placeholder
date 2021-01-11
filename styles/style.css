@@ -422,10 +422,17 @@ li {
   width: 70%;
 }
 
+@media (max-width: 750px) {
+  .case div p,
+  .case h2 {
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 600px) {
   .case div p,
   .case h2 {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
   }
 }
 
