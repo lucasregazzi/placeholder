@@ -306,7 +306,8 @@ a {
 }
 
 @media (max-width: 600px) {
-  section {
+  section,
+  h1 {
     font-size: 1.7rem;
   }
 }
