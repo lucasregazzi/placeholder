@@ -141,6 +141,7 @@ aside p {
 
 aside img {
     width: 100%;
+    height: auto;
 }
 
 ul {
@@ -159,12 +160,24 @@ li {
 
 li h2,
 li div {
-    width: 30%;
     flex-grow: 2;
+}
+
+li h2 {
+    width: 25%;
+    margin-right: 5%;
 }
 
 li div {
     width: 70%;
+}
+
+
+@media (max-width: 600px) {
+    li div p,
+    li h2 {
+        font-size: 1.7rem;
+    }
 }
 
 .exit {
