@@ -236,8 +236,12 @@ html {
   overflow: hidden;
 }
 
+aside,
 main {
   font-family: 'Pavanam', sans-serif;
+}
+
+main {
   width: 100vw;
   height: 100vh;
   display: -webkit-box;
@@ -246,6 +250,13 @@ main {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   font-size: 2.3rem;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 2.3rem;
+  font-weight: normal;
 }
 
 section {
@@ -267,6 +278,10 @@ section {
           justify-content: center;
   border: 1px solid;
   position: relative;
+}
+
+section img {
+  max-width: 100%;
 }
 
 section:hover {
@@ -343,4 +358,40 @@ i.far {
 
 section:hover i.far {
   display: block;
+}
+
+aside {
+  width: 100vw;
+  font-size: 2.4rem;
+  border: 1px solid;
+  border-top: 0px;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+aside img {
+  width: 100%;
+}
+
+ul {
+  padding: 100px;
+  margin: 0;
+  background-color: #fff;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.exit {
+  position: fixed;
+  top: 0;
 }
