@@ -41,6 +41,12 @@ a {
     border-top: 0;
 }
 
+@media (max-width: 600px) {
+    section {
+        font-size: 1.7rem;
+    }
+}
+
 .cases:hover a,
 .cases:focus-within a {
     border-bottom: 1px solid;
@@ -57,25 +63,37 @@ a {
     display: block;
 }
 
+.two {
+    border-bottom: 1px solid;
+}
+
 // Decorations
 
-i.far,
-i.fas {
+i.far {
     position: absolute;
     display: none;
 }
 
-section:hover i.far,
-section:hover i.fas {
-    display: block;
-}
-
-.fa-star {
-    right: 25px;
-    bottom: 25px;
-}
-
-.fa-star-of-life {
-    left: 25px;
+.a {
     top: 25px;
+    left: 25px;
+}
+
+.b {
+    bottom: 25px;
+    right: 25px;
+}
+
+.c {
+    bottom: 25px;
+    left: 25px;
+}
+
+.d {
+    top: 25px;
+    right: 25px;
+}
+
+section:hover i.far {
+    display: block;
 }
