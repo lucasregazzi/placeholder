@@ -1,0 +1,81 @@
+main {
+    font-family: 'Pavanam', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2.3rem;
+}
+
+section {
+    padding: 30px;
+    width: 50vw;
+    height: 50vh;
+    flex-grow: 2;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    position: relative;
+}
+
+section:hover {
+    background-color: #dcdcdc;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.about {
+    border-left: 0;
+}
+
+.contact {
+    border-left: 0;
+}
+
+.cases, .contact {
+    border-top: 0;
+}
+
+.cases:hover a,
+.cases:focus-within a {
+    border-bottom: 1px solid;
+}
+
+.two, 
+.contact:hover .one,
+.contact:focus-within .one {
+    display: none;
+}
+
+.contact:hover .two,
+.contact:focus-within .two {
+    display: block;
+}
+
+// Decorations
+
+i.far,
+i.fas {
+    position: absolute;
+    display: none;
+}
+
+section:hover i.far,
+section:hover i.fas {
+    display: block;
+}
+
+.fa-star {
+    right: 25px;
+    bottom: 25px;
+}
+
+.fa-star-of-life {
+    left: 25px;
+    top: 25px;
+}
