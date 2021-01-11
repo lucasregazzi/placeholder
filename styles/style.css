@@ -281,10 +281,6 @@ section {
   position: relative;
 }
 
-section img {
-  max-width: 100%;
-}
-
 section:hover {
   background-color: #dcdcdc;
 }
@@ -397,9 +393,12 @@ ul {
 }
 
 li {
+  list-style: none;
+}
+
+.case {
   padding: 0;
   margin: 0;
-  list-style: none;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   display: -webkit-box;
@@ -407,25 +406,25 @@ li {
   display: flex;
 }
 
-li h2,
-li div {
+.case h2,
+.case div {
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
 }
 
-li h2 {
+.case h2 {
   width: 25%;
   margin-right: 5%;
 }
 
-li div {
+.case div {
   width: 70%;
 }
 
 @media (max-width: 600px) {
-  li div p,
-  li h2 {
+  .case div p,
+  .case h2 {
     font-size: 1.7rem;
   }
 }
