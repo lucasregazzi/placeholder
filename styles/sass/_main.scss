@@ -123,12 +123,20 @@ aside {
     border-top: 0px;
 }
 
-h2 {
+h2,
+aside p {
     padding: 0;
     margin: 0;
     font-size: 2.4rem;
     font-weight: normal;
+}
+
+h2 {
     text-decoration: underline;
+}
+
+aside p {
+    margin-bottom: 25px;
 }
 
 aside img {
@@ -145,6 +153,18 @@ li {
     padding: 0;
     margin: 0;
     list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+li h2,
+li div {
+    width: 30%;
+    flex-grow: 2;
+}
+
+li div {
+    width: 70%;
 }
 
 .exit {
