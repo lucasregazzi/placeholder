@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Placeholder is a creative agency.</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./assets/favicon.png">
+    <link rel="shortcut icon" href="./assets/favicon.svg">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="./styles/style.css">
     <!-- Pavanam -->
@@ -19,40 +19,42 @@
 <body>
     <main>
         <section class="header">
-            <i class="far fa-star a"></i>
+            <i class="fas fa-circle a"></i>
             <div class="within">
-                <h1>Placeholder is a creative agency.</h1>
+                <h1 tabindex="1">Placeholder is a creative agency.</h1>
             </div>
-            <i class="far fa-star b"></i>
+            <i class="fas fa-circle b"></i>
         </section>
         <section class="about">
-            <i class="far fa-star c"></i>
+            <i class="fas fa-circle c"></i>
             <div class="within">
-                <p>We think design makes art work.</p>
+                <p tabindex="2">We think design makes art work.</p>
             </div>
-            <i class="far fa-star d"></i>
+            <i class="fas fa-circle d"></i>
         </section>
         <section class="cases">
-            <i class="far fa-star c"></i>
+            <i class="fas fa-circle c"></i>
             <div class="within">
-                <p><a href="#portfolio">View our case studies.</a></p>
-            </div>
-            <i class="far fa-star d"></i>
-        </section>
-        <section class="contact">
-            <i class="far fa-star a"></i>
-            <div class="within">
-                <p><span class="one" tabindex="1">Get in touch.</span>
-                    <span class="two" tabindex="2">hello@placeholder.online</span>
+                <p>
+                    <span class="one" tabindex="3"><a href="#portfolio" tabindex="3">View our case studies.</a></span>
+                    <span class="two" tabindex="4">Coming soon</span>
                 </p>
             </div>
-            <i class="far fa-star b"></i>
+            <i class="fas fa-circle d"></i>
+        </section>
+        <section class="contact">
+            <i class="fas fa-circle a"></i>
+            <a href="http://twitter.com/thisisplacehold" target="_blank" title="Clicking here will take you to Placeholder's Twitter profile." tabindex="5"><i class="fab fa-twitter d"></i></a>
+            <div class="within">
+                <p><span class="one" tabindex="7">Get in touch.</span>
+                    <span class="two" tabindex="8">hello@placeholder.online</span>
+                </p>
+            </div>
+            <a href="http://behance.net/thisisplaceholder" target="_blank" title="Clicking here will take you to Placeholder's Behance profile." tabindex="6"><i class="fab fa-behance b"></i></a>
+            <a href="mailto:hello@placeholder.online" target="_blank" title="Clicking here will activate an email to us using your device's mail application." tabindex="9"><i class="fas fa-at c"></i></a>
         </section>
     </main>
-    <aside class="portfolio" id="portfolio">
-        <div class="exit">
-            <i class="far fa-times-circle"></i>
-        </div>
+    <!-- <aside class="portfolio" id="portfolio">
         <ul>
             <li>
                 <div class="case">
@@ -68,7 +70,7 @@
                 alt="A comprehensive mockup demonstrating Placeholder's rebrand for the Art Gallery of Ontario as a web product.">
             </li>
         </ul>
-    </aside>
+    </aside> -->
     <!-- jQuery -->
     <script src='https://code.jquery.com/jquery-3.4.0.min.js'
         integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>

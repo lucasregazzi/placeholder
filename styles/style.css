@@ -279,9 +279,12 @@ section {
           justify-content: center;
   border: 1px solid;
   position: relative;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
 }
 
-section:hover {
+section:hover,
+section:focus {
   background-color: #dcdcdc;
 }
 
@@ -316,22 +319,29 @@ a {
 
 .two,
 .contact:hover .one,
-.contact:focus-within .one {
+.contact:focus-within .one,
+.cases:hover .one,
+.cases:focus-within .one {
   display: none;
+  opacity: 0;
 }
 
 .contact:hover .two,
-.contact:focus-within .two {
+.contact:focus-within .two,
+.cases:hover .two,
+.cases:focus-within .two {
   display: block;
+  opacity: 1;
 }
 
 .two {
   border-bottom: 1px solid;
 }
 
-i.far {
+i.fas,
+i.fab {
   position: absolute;
-  display: none;
+  opacity: 0;
 }
 
 .a {
@@ -354,8 +364,9 @@ i.far {
   right: 25px;
 }
 
-section:hover i.far {
-  display: block;
+section:hover i.fas,
+section:hover i.fab {
+  opacity: 1;
 }
 
 aside {
