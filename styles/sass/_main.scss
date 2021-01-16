@@ -27,7 +27,7 @@ section {
     text-align: center;
     align-items: center;
     justify-content: center;
-    // border: 1px solid;
+    border: 1px solid;
     position: relative;
     transition-duration: .2s;
 }
@@ -42,17 +42,17 @@ a {
     color: #000;
 }
 
-// .about {
-//     border-left: 0;
-// }
+.about {
+    border-left: 0;
+}
 
-// .contact {
-//     border-left: 0;
-// }
+.contact {
+    border-left: 0;
+}
 
-// .cases, .contact {
-//     border-top: 0;
-// }
+.cases, .contact {
+    border-top: 0;
+}
 
 @media (max-width: 900px) {
     section,

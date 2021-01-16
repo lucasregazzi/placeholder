@@ -277,6 +277,7 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border: 1px solid;
   position: relative;
   -webkit-transition-duration: .2s;
           transition-duration: .2s;
@@ -290,6 +291,18 @@ section:focus {
 a {
   text-decoration: none;
   color: #000;
+}
+
+.about {
+  border-left: 0;
+}
+
+.contact {
+  border-left: 0;
+}
+
+.cases, .contact {
+  border-top: 0;
 }
 
 @media (max-width: 900px) {
