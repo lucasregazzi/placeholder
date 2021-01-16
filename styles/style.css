@@ -239,7 +239,7 @@ html {
 
 aside,
 main {
-  font-family: 'inter', sans-serif;
+  font-family: 'lunchtype22regular', sans-serif;
 }
 
 main {
@@ -308,9 +308,6 @@ section img {
 
 @media (max-width: 900px) {
   .width {
-    width: 100px;
-  }
-  section img {
     width: 100px;
   }
   section,
