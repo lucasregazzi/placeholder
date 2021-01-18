@@ -36,9 +36,10 @@ main {
 }
 
 ul {
+    z-index: 100;
     font-size: 45px;
     color: #fff;
-    animation: splashIn 4.4s forwards;
+    animation: splashIn 3s forwards;
 }
 
 ul a {
@@ -86,6 +87,7 @@ li.info a {
 }
 
 .container {
+    z-index: 99;
     overflow: scroll;
     position: fixed;
     width: 70%;
@@ -95,7 +97,7 @@ li.info a {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: splashIn 4.4s forwards;
+    animation: splashIn 3s forwards;
 }
 
 .hold {
@@ -191,14 +193,10 @@ li.info a {
     0% {
         opacity: 1;
     }
-    25% {
-        transform: scale(1.2);
-    }
-    60% {
-        transform: scale(.9);
+    95% {
+        opacity: 1;
     }
     100% {
-        transform: scale(.1);
         opacity: 0;
     }
 }
